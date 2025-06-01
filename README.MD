@@ -1,4 +1,4 @@
-# Tugas PBO OOP Dasar
+# Tugas PBO OOP Ecommerce
 
 Aplikasi desktop Java sederhana untuk **manajemen pengguna e-commerce** yang dibuat dengan penerapan konsep dasar Pemrograman Berorientasi Objek (OOP) seperti constructor, inheritance, polymorphism, encapsulation, interface, package, dan exception handling.
 
