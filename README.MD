@@ -61,8 +61,8 @@ Studi kasus yang dipilih adalah **e-commerce**, dengan fokus pada pengelolaan da
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/Tugas-PBO-OOP-Dasar.git
-cd Tugas-PBO-OOP-Dasar
+git clone https://github.com/alavanta/Tugas-PBO-OOP-Ecommerce.git
+cd Tugas-PBO-OOP-Ecommerce
 ```
 
 ### 2. Build dan Jalankan
