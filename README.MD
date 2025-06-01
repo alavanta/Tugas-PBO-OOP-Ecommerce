@@ -8,6 +8,14 @@ Ini adalah proyek aplikasi desktop Java sederhana untuk manajemen data pengguna 
 - Tampilan daftar pengguna dari database
 - Dukungan multi-role (admin dan customer)
 
+## 📸 Screenshot
+
+### 📝 Form Pendaftaran
+![Form Pendaftaran](screenshots/form-pendaftaran.png)
+
+### Daftar Pengguna Terdaftar 📝 
+![Daftar Pengguna Terdaftar](screenshots/tampilkan-data.png)
+
 ## Struktur Proyek
 
 ```
