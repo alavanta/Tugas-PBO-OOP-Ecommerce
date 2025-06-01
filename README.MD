@@ -1,0 +1,80 @@
+# Tugas PBO OOP Dasar
+
+Ini adalah proyek aplikasi desktop Java sederhana untuk manajemen data pengguna menggunakan konsep OOP (Object-Oriented Programming) dasar. Aplikasi ini dibuat sebagai tugas pembelajaran OOP dan menggunakan Java Swing untuk antarmuka grafis serta SQLite untuk penyimpanan data.
+
+## Fitur
+- Form pendaftaran pengguna
+- Penyimpanan data ke database SQLite
+- Tampilan daftar pengguna dari database
+- Dukungan multi-role (admin dan customer)
+
+## Struktur Proyek
+
+```
+📦 Proyek Struktur
+├── 🛠️ build.gradle
+├── 🛠️ settings.gradle
+├── 📄 .gitignore
+├── ⚙️ gradlew / gradlew.bat
+├── ⚙️ gradle/wrapper/
+├── 🗄️ ecommerce.db *(otomatis dibuat saat pertama dijalankan)*
+└── 📁 src/main/java/main/
+    ├── 🚀 App.java
+    ├── 📁 interfaceku/
+    │   └── 📝 DaftarAkun.java
+    ├── 📁 model/
+    │   ├── 👤 Admin.java
+    │   ├── 👤 Customer.java
+    │   ├── 👤 User.java
+    │   └── 🧾 UserData.java
+    ├── 📁 service/
+    │   └── 🔧 DatabaseService.java
+    └── 📁 ui/
+        ├── 🧾 FormPendaftaran.java
+        └── 📊 TampilData.java
+
+```
+
+## Prasyarat
+
+- Java 17 atau lebih tinggi
+- Gradle (bisa pakai wrapper: `./gradlew`)
+
+## Menjalankan Aplikasi
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/username/Tugas-PBO-OOP-Dasar.git
+cd Tugas-PBO-OOP-Dasar
+```
+
+### 2. Build dan Jalankan
+
+Gunakan Gradle wrapper:
+
+```bash
+./gradlew run
+```
+
+Atau jika menggunakan Windows:
+
+```bash
+gradlew.bat run
+```
+
+### 3. Jalankan dari IDE
+
+Jika menggunakan IntelliJ IDEA:
+- Buka folder proyek
+- Pastikan Gradle menggunakan Java 17 (periksa Project SDK dan Toolchain)
+- Jalankan `App.java` sebagai `Application`
+
+## Catatan
+
+- File database `ecommerce.db` akan dibuat secara otomatis di direktori proyek saat aplikasi pertama kali dijalankan.
+- Pastikan `sqlite-jdbc` dependency berhasil didownload saat build (tersedia di `build.gradle`).
+
+## Lisensi
+
+Proyek ini dibuat untuk tujuan pembelajaran. Bebas digunakan dan dimodifikasi sesuai kebutuhan.
