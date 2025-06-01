@@ -1,12 +1,20 @@
 # Tugas PBO OOP Dasar
 
-Ini adalah proyek aplikasi desktop Java sederhana untuk manajemen data pengguna menggunakan konsep OOP (Object-Oriented Programming) dasar. Aplikasi ini dibuat sebagai tugas pembelajaran OOP dan menggunakan Java Swing untuk antarmuka grafis serta SQLite untuk penyimpanan data.
+Aplikasi desktop Java sederhana untuk **manajemen pengguna e-commerce** yang dibuat dengan penerapan konsep dasar Pemrograman Berorientasi Objek (OOP) seperti constructor, inheritance, polymorphism, encapsulation, interface, package, dan exception handling.
+
+Aplikasi ini menggunakan Java Swing untuk antarmuka grafis dengan komponen seperti **radio button** dan **combo box**, serta terhubung ke database SQLite untuk penyimpanan data secara lokal.
 
 ## Fitur
-- Form pendaftaran pengguna
-- Penyimpanan data ke database SQLite
-- Tampilan daftar pengguna dari database
+
+- Form pendaftaran pengguna menggunakan radio button dan combo box
+- Penyimpanan data pengguna ke database SQLite
+- Tampilan daftar pengguna yang telah terdaftar
 - Dukungan multi-role (admin dan customer)
+- Penanganan exception pada koneksi database dan validasi input user
+
+## Studi Kasus
+
+Studi kasus yang dipilih adalah **e-commerce**, dengan fokus pada pengelolaan data pengguna yang bermanfaat bagi pengguna dan administrator aplikasi.
 
 ## 📸 Screenshot
 
