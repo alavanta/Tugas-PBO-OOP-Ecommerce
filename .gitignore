@@ -36,3 +36,6 @@ bin/
 # Gradle build files
 .gradle/
 build/
+
+#db
+ecommerce.db
